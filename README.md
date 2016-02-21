@@ -1,8 +1,8 @@
 # brazil-types
 
-[![Build Status](https://travis-ci.org/sped-br/python-sped.svg "Build Status")](https://travis-ci.org/sped-br/python-sped)
-[![Coverage Status](https://coveralls.io/repos/sped-br/python-sped/badge.svg)](https://coveralls.io/r/sped-br/python-sped)
-[![Code Health](https://landscape.io/github/sped-br/python-sped/master/landscape.svg?style=flat)](https://landscape.io/github/sped-br/python-sped/master)
+[![Build Status](https://travis-ci.org/gestaolivre/brazil-types.svg "Build Status")](https://travis-ci.org/gestaolivre/brazil-types)
+[![Coverage Status](https://coveralls.io/repos/gestaolivre/brazil-types/badge.svg)](https://coveralls.io/r/gestaolivre/brazil-types)
+[![Code Health](https://landscape.io/github/gestaolivre/brazil-types/master/landscape.svg?style=flat)](https://landscape.io/github/gestaolivre/brazil-types/master)
 
 Tipos de dados usados no Brasil.
 
