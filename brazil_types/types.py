@@ -5,7 +5,19 @@ import re
 import six
 
 
-class CNPJ(object):
+class CommonEqualityMixin(object):
+    u"""Mixin para comparação entre objetos."""
+
+    def __eq__(self, other):
+        u"""Comparação de igualdade."""
+        return (isinstance(other, self.__class__) and self.__dict__ == other.__dict__)
+
+    def __ne__(self, other):
+        u"""Comparação de diferença."""
+        return not self.__eq__(other)
+
+
+class CNPJ(CommonEqualityMixin):
     u"""
     Cadastro Nacional de Pessoas Jurídicas.
 
@@ -181,7 +193,7 @@ class CNPJ(object):
         return self.format()
 
 
-class CPF(object):
+class CPF(CommonEqualityMixin):
     u"""
     Cadastro de Pessoas Físicas.
 
